@@ -1,0 +1,17 @@
+{
+  "name": "@kinetics254/cassandra-base",
+  "version": "2.0.45-ui-by-p-patch-2",
+  "description": "ESS Dashboard & Auth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Employee, Base"
+  ],
+  "author": "Morris Mburu",
+  "license": "MIT",
+  "dependencies": {
+    "@kinetics254/cassandra-setup": "^1.0.0"
+  }
+}

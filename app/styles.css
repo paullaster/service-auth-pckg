@@ -1,0 +1,59 @@
+.line {
+    fill: none;
+    stroke: var(--v-primary-base);
+    stroke-width: 2.5;
+    stroke-linecap: round;
+}
+
+#scollStyle::-webkit-scrollbar-track
+{
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+#scollStyle::-webkit-scrollbar
+{
+    width: 6px;
+    background-color: transparent;
+}
+
+#scollStyle::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-color: #9e9e9edb;
+}
+.leaveBar.v-sheet.v-app-bar.v-toolbar:not(.v-sheet--outlined) {
+    box-shadow: 0 0px 0px 0px rgb(0 0 0 / 20%), 0 0px 0px 0 rgb(0 0 0 / 14%),
+    0 0px 0px 0 rgb(0 0 0 / 12%);
+}
+
+.drawer-list .v-list-item--active::after {
+    content: '';
+    position: absolute;
+    border-left: 6px solid var(--v-secondary-base);
+    left: 5px;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.active--side--item {
+    border-left: 6px solid var(--v-secondary-base);
+    left: 5px;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.drawer-list {
+    margin-bottom: -5%;
+}
+
+.drawer-list .v-list-group .v-list-group__header .v-list-item__icon.v-list-group__header__append-icon i {
+    color: #fff;
+}
+
+.mini--link .v-tooltip__content {
+    font-size: 50px !important;
+    opacity: 1 !important;
+    display: block !important;
+}
+
